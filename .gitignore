@@ -1,0 +1,8 @@
+/private
+*.out
+*.log
+*.aux
+*.pdf
+*.swp
+*.swo
+*~
