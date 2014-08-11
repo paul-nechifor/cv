@@ -1,8 +1,5 @@
-/private
-*.out
-*.log
 *.aux
+*.log
+*.out
 *.pdf
-*.swp
-*.swo
-*~
+*.toc
