@@ -9,6 +9,8 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{color}
+\usepackage{svg}
+\usepackage{adjustbox}
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 
 % Commands.
@@ -16,6 +18,7 @@
 \newcommand{\primaryColor}[1]{{\color[rgb]{0.92, 0, 0} #1}}
 \newcommand{\fadedColor}[1]{{\color[rgb]{0.6, 0.6, 0.6} #1}}
 \newcommand{\sub}[1]{\vspace{4mm}\primaryColor{\section*{#1}}}
+\newcommand{\info}[2]{\trimbox{0 3 3 0}{\includesvg[width=7mm]{#1}}{#2}~~~}
 
 \begin{document}
 
@@ -28,22 +31,12 @@
 \end{tabular}
 \end{center}
 
-\begin{minipage}{0.50\linewidth}
-\begin{center}
-\begin{tabular}{rl}
-  location& {\bf Iași, Romania} (currently)\\
-  GitHub& \href{http://github.com/paul-nechifor}{\bf github.com/paul-nechifor}
-\end{tabular}
-\end{center}
-\end{minipage}
-\begin{minipage}{0.50\linewidth}
-\begin{center}
-\begin{tabular}{rl}
-  phone& {\bf 0040 729 564 702}\\
-  email& \href{mailto:paul@nechifor.net}{\bf paul@nechifor.net}\\
-\end{tabular}
-\end{center}
-\end{minipage}
+\centerline{
+\info{fa-envelope4}{\href{mailto:paul@nechifor.net}{\bf paul@nechifor.net}}
+\info{fa-telephone65}{\bf 0040 729 564 702}
+\info{fa-github12}{\href{http://github.com/paul-nechifor}{\bf paul-nechifor}}
+\info{fa-map25}{{\bf Iași, Romania} (currently)}
+}
 
 \sub{Education}
 

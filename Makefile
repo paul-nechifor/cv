@@ -1,10 +1,10 @@
 all:
-	pdflatex cv.tex
+	pdflatex --shell-escape cv.tex
 
 listen:
 	while inotifywait -e close_write cv.tex; do sleep 1; make; done
 
 clean:
-	rm -f *.log *.aux *.pdf *.toc *.out *~
+	rm -f *.log *.aux *.pdf *.pdf_tex *.toc *.out *~
 
 .PHONY: listen clean
