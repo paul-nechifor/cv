@@ -17,12 +17,15 @@
 \newcommand{\bigFont}[1]{{\fontsize{7mm}{1em}\selectfont #1}}
 \newcommand{\primaryColor}[1]{{\color[rgb]{0.92, 0, 0} #1}}
 \newcommand{\fadedColor}[1]{{\color[rgb]{0.6, 0.6, 0.6} #1}}
+\newcommand{\uses}[1]{\emph{\color[rgb]{0.35, 0.35, 0.35} #1}}
 \newcommand{\sub}[1]{\section*{\primaryColor{#1}}}
 \newcommand{\info}[2]{\trimbox{0 3 3 0}{\includesvg[width=7mm]{#1}}{#2}~~~}
+\newcommand{\sep}{~•~}
 
 \begin{document}
 
-\thispagestyle{empty}
+\thispagestyle{empty} % No page numbers.
+\setlength\parindent{0em} % No idents for paragraphs.
 
 \begin{center}
 \begin{tabular}{rcl}
@@ -58,13 +61,64 @@
 
 \begin{tabular}{@{}ll@{}}
   languages& {\bf Java, JavaScript, Python}, C, CoffeeScript, C\#, C++\\
-  technologies& {\bf Node.js, Java EE, HTML5, CSS3, \LaTeX{}}\\
+  technologies& {\bf Node.js, Java EE, HTML5, CSS3, \LaTeX{}}, Android\\
   tools& {\bf Linux, Vim}, NetBeans, Eclipse, Vagrant\\
 \end{tabular}
 
 \sub{Projects}
 
-\vspace{2cm}
-\centerline{See \textbf{nechifor.net} for more information.}
+\textbf{Multilatex} Collaborative web editor for \LaTeX{} projects (M.Sc.
+project). \uses{Node.js}
+
+\textbf{Thunder Tactics} Browser-based MMORPG/TBS game using WebGL and
+WebSockets (group project). \uses{Java, JavaScript}
+
+\textbf{Negura} Distribuited peer-to-peer file system (B.Sc. project).
+\uses{Java}
+
+\textbf{DNSSEC implementation} Authoritative server and rezolver using multiple
+servers and authority zones. \uses{Java}
+
+\textbf{ComA} Commuter assistent for Android. \uses{Java}
+
+\textbf{Reddit Cloud} Reddit bot for generating word clouds. \uses{Python}
+
+\textbf{Poshex} Chrome extension for using semantic markup. \uses{JavaScript}
+
+\textbf{PayWord implementation} Internet radio using the PayWord micropayment
+system. \uses{Java}
+
+\textbf{IM} IM client with offline messages, availabilty notifications, file
+transfers and alerts. \uses{C\#}
+
+\textbf{PP2P} File sharing client similar to Direct Connect using Qt. \uses{C++}
+
+\vspace{5mm}
+
+\textbf{Others}: romanian text-to-speech using MBROLA
+\sep{} citire TTS a mesajelor venite pe Yahoo Messenger
+\sep{} encoding images using K-means to reduce colors
+\sep{} site generator horoscop plauzibil
+\sep{} pagina probleme șah extrase din Chessmaster
+\sep{} plausible fake identity generator
+\sep{} tetravex Android game using OpenGL ES
+\sep{} Linux file treemapping app using GTK+ in Python
+\sep{} game of life in Haskell using GTK+
+\sep{} multiserver Hadoop configuration using Vagrant
+\sep{} ML face recognition experiments
+\sep{} Yahoo Messenger trivia bot
+% \sep{} joc macaua (doar text) cu reguli customizabile
+% \sep{} joc fotbal pe hârtie cu AI
+\sep{} magic square finder.
+
+\vspace{5mm}
+
+The described projects (plus others) are
+\href{http://github.com/paul-nechifor}{\textbf{available on GitHub}}. Links and
+better descriptions on \href{http://nechifor.net}{\textbf{nechifor.net}}.
+
+\vspace{5mm}
+
+Showreel (incomplete): \href{http://youtu.be/zZZW-KqOmOE}{youtu.be/zZZW-KqOmOE}
 
 \end{document}
