@@ -1,4 +1,5 @@
 all:
+	npm run generate
 	pdflatex --shell-escape cv.tex
 
 listen:
