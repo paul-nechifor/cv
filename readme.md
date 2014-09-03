@@ -1,6 +1,6 @@
-# Resume
+# CV
 
-Paul Nechifor's resume.
+Paul Nechifor's CV.
 
 ## Usage
 

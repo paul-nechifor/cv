@@ -6,6 +6,6 @@ listen:
 	while inotifywait -e close_write cv.tex; do sleep 1; make; done
 
 clean:
-	rm -f *.log *.aux *.pdf *.pdf_tex *.toc *.out *~
+	rm -f *.log *.aux *.pdf *.pdf_tex *.toc *.out *~ *.gen.tex
 
 .PHONY: listen clean
