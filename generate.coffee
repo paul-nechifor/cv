@@ -1,7 +1,7 @@
 CvInfo = require 'cv-info'
 fs = require 'fs'
 
-INFO_FILE = '/home/p/pro/nechifor-info/info.yaml'
+INFO_FILE = __dirname + '/info/info.yaml'
 
 genMajorProjects = (info) ->
   list = []
