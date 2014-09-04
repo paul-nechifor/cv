@@ -9,5 +9,9 @@
     "coffee-script": "^1.7.1",
     "cv-info": ">=0.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paul-nechifor/cv.git"
+  },
   "license": "MIT"
 }
