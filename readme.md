@@ -2,6 +2,8 @@
 
 Paul Nechifor's CV.
 
+![CV screenshot](screenshot.png)
+
 ## Usage
 
 Get the submodule:
