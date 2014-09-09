@@ -1,8 +1,12 @@
 # CV
 
-Paul Nechifor's CV.
+[Paul Nechifor][hp]'s CV generator. Get the most recent PDF in the [releases
+page][releases].
 
 ![CV screenshot](screenshot.png)
+
+This generator uses [my CV info][cvinfo] for the data. You need `pdflatex` in
+order to compile it.
 
 ## Usage
 
@@ -22,3 +26,7 @@ Build everything:
 ## License
 
 MIT
+
+[hp]: http://nechifor.net
+[releases]: https://github.com/paul-nechifor/cv/releases
+[cvinfo]: https://github.com/paul-nechifor/nechifor-info
