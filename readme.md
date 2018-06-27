@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/cv](http://gitlab.com/paul-nechifor/cv).
+
+Old readme:
+
 # CV
 
 [Paul Nechifor][hp]'s CV generator. Get the most recent PDF in the [releases
